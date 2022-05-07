@@ -31,7 +31,7 @@ app.use(
 // Routes
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("MinosAPI is running!");
 });
 
 app.listen(port, () => {
