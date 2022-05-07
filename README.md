@@ -1,2 +1,3 @@
 # MonosApi
-Password manager API made in Node with Express and MongoDB
+
+API made for password manager in Node.js with Express and MongoDB
