@@ -1,0 +1,37 @@
+{
+  "name": "minosapi",
+  "version": "0.1.0",
+  "description": "API made for password manager in Node.js with Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrestizniKB/MinosApi.git"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "password-manager",
+    "node-js"
+  ],
+  "author": "PrestizniKB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrestizniKB/MinosApi/issues"
+  },
+  "homepage": "https://github.com/PrestizniKB/MinosApi#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "prettier": "2.6.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
